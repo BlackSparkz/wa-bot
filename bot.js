@@ -18,7 +18,7 @@ const CFG = {
   BLOCK: new Set([]),                    // jinko kabhi reply nahi
   DRAFT_ALL: false,                      // true = kisi ko reply nahi bhejta, draft tumhe self-chat mein
   DRAFT_ONLY: new Set([]),               // in numbers ke liye sirf draft
-  DEBOUNCE_MS: 2000,                     // jaldi-jaldi aaye messages ek saath process
+  DEBOUNCE_MS: 1600,                     // jaldi-jaldi aaye messages ek saath process
   DELAY_MIN: 1000,                        // minimum "human" delay (LLM ke saath parallel)
   DELAY_MAX: 2000,
   COOLDOWN_MS: 3000,                     // ek chat ko is gap se pehle dobara reply nahi
