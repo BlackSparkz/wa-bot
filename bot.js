@@ -59,7 +59,7 @@ const PROVIDERS = {
   groq: {
     key: process.env.GROQ_API_KEY,
     baseURL: "https://api.groq.com/openai/v1",
-    model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile",   // tez: llama-3.1-8b-instant
+    model: process.env.GROQ_MODEL || "qwen/qwen3.8-27b", // tez: llama-3.1-8b-instant
     maxTokens: 150,
   },
   gemini: {
