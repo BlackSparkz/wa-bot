@@ -1,4 +1,4 @@
-# WhatsApp AI Auto-Reply Bot
+# WhatsApp AI Auto-Reply Bot (Vibe coded)
 
 A lightweight AI auto-reply bot for **your own personal WhatsApp number**, built on [Baileys](https://github.com/WhiskeySockets/Baileys) (Node.js). It replies inside your existing chats, in your voice, using free-tier LLM APIs (Groq / Gemini) with automatic failover. Runs happily on a Raspberry Pi.
 
